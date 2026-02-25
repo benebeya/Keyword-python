@@ -45,4 +45,4 @@ htmlcov/
 
 # Logs and databases
 *.log
-db.sqlite3   
+db.sqlite3   *.code-workspace
