@@ -143,7 +143,7 @@ lock = threading.Lock()
 with lock:
     print("critical section")"""
 #?35.yield (create generators )--------------------------------------------------------
-"""from typing import Generator
+from typing import Generator
 
 def generate_numbers(limit :int )-> Generator:
     for i in range (0, limit):
@@ -153,11 +153,11 @@ numbers : Generator =  generate_numbers(limit=10)
 print(next(numbers))
 print(next(numbers))
 print(next(numbers))
-print(list(numbers))"""
+print(list(numbers))
 
 #todo:softKeywords1.case and match--------------------------------------------------------
 
-def describe_status(code: int) -> str:
+"""def describe_status(code: int) -> str:
     match code:
         case 200:
             return "OK"
@@ -167,4 +167,4 @@ def describe_status(code: int) -> str:
             return "Server Error"
         case _:
             return "Unknown"
-print(describe_status(200)) 
+print(describe_status(404)) """
